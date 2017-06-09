@@ -1,0 +1,181 @@
+body {
+      position: relative;     
+  }
+
+h3  {
+  font-family:'Lato', sans-serif;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+#About{
+  padding-top:170px;
+  color: #000; 
+}
+
+
+#Portfolio {
+padding-top:200px;
+color: #000;
+}
+
+/* IMG HOVER EFFECT  "COMING SOON" */
+.img-hover-effect {
+  overflow: hidden;
+  position: relative;   
+}
+ 
+
+.img-hover-effect a {
+  color: #333;
+}
+
+.img-hover-effect .img-info {
+  background: #e5e5e5;
+  background: rgba(243,243,240, 0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0; 
+  left: 0;
+  right: 0; 
+  margin-bottom: 20px;
+  text-align: center;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out; 
+} 
+
+
+.img-hover-effect .img-responsive {
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out; 
+} 
+
+
+.img-hover-effect .img-info h3 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  padding: 20px;  
+  background: #111111;
+  margin: 170px 0 0 0; 
+}
+
+.img-hover-effect .img-info {
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%); 
+}
+
+.img-hover-effect a:hover .img-info {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+
+/* IMG HOVER END */
+
+ 
+  #Contact {
+    padding-top:50px;
+    /*: 900px; */
+    color: #000;   
+}
+   
+/* BURGER MENU */
+
+.navbar-toggle .icon-bar {
+width: 22px;
+transition: all 0.4s;
+}
+
+.navbar-toggle .top-bar {
+-webkit-transform: rotate(45deg);
+-webkit-transform-origin: 10% 10%;
+transform: rotate(45deg);
+transform-origin: 10% 10%;
+-ms-transform: rotate(45deg);
+-ms-transform-origin: 10% 10%;
+}
+
+.navbar-toggle .middle-bar {
+opacity: 0;
+}
+
+.navbar-toggle .bottom-bar {
+-webkit-transform: rotate(-45deg);
+-webkit-transform-origin: 10% 90%;
+transform: rotate(-45deg);
+transform-origin: 10% 90%;
+-ms-transform: rotate(-45deg);
+-ms-transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed .top-bar {
+-webkit-transform: rotate(0);
+transform: rotate(0);
+-ms-transform: rotate(0);
+}
+
+.navbar-toggle.collapsed .middle-bar {
+opacity: 1;
+}
+
+.navbar-toggle.collapsed .bottom-bar {
+-webkit-transform: rotate(0);
+transform: rotate(0);
+-ms-transform: rotate(0);
+}
+
+/* BURGER MENU END */
+
+.social {
+ margin-top: 30px;
+ margin-bottom: 40px;
+ color: #000;
+}
+
+ .social a {
+color: #5e5e5e;
+}
+
+.btn-floating {
+  margin:20px;
+}
+  
+.btn-facebook {  
+    margin-left:50px;
+}
+
+/*BACK TO TOP */
+.fa-angle-double-up, p {
+  color: #5e5e5e; 
+}
+/* END BACK TO TOP*/
+
+
+.panel-footer {
+  background: #f8f8f8;
+  color:  #5e5e5e;
+}
+
+
