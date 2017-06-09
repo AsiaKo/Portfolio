@@ -9,9 +9,8 @@ $(document).ready(function() {
         scrollTop: $(hash).offset().top
       }, 1300, function(){
         window.location.hash = hash;
-      });
-    
-  };
+      });   
+    };
 });
   
 
@@ -27,12 +26,12 @@ jQuery(document).ready(function() {
                 jQuery('.back-to-top').fadeOut(duration);
             }
         });
+        
         jQuery('.back-to-top').click(function(event) {
             event.preventDefault();
             jQuery('html, body').animate({scrollTop: 1500}, duration);
             return false;
         });
     });
-
 })
  
